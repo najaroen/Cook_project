@@ -1,0 +1,28 @@
+{
+  "name": "topic",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "topicID": {
+      "type": "number",
+      "id": true
+    },
+    "memberID": {
+      "type": "number"
+    },
+    "title": {
+      "type": "string"
+    },
+    "score": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

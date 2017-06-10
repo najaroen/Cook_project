@@ -1,0 +1,26 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "topicfood": {
+    "host": "",
+    "port": 0,
+    "url": "",
+    "database": "topicfood_db",
+    "password": "",
+    "name": "topicfood",
+    "user": "",
+    "connector": "mongodb"
+  },
+  "foodmemberdatasource": {
+    "host": "localhost",
+    "port": 3306,
+    "url": "",
+    "database": "foodmember",
+    "password": "",
+    "name": "foodmemberdatasource",
+    "user": "root",
+    "connector": "mysql"
+  }
+}

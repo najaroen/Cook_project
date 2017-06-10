@@ -1,0 +1,38 @@
+{
+  "name": "topicfood_model",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "quantity": {
+      "type": "number"
+    },
+    "price": {
+      "type": "number"
+    },
+    "cook": {
+      "type": "string"
+    },
+    "video": {
+      "type": "string"
+    },
+    "picture": {
+      "type": "string"
+    },
+    "score": {
+      "type": "number"
+    },
+    "rawfood": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
